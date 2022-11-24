@@ -1,18 +1,18 @@
 
 package model;
-import model.Console;
-import java.util.List;
 
 public class Jeu {
 
 	private String titre;
 	private Console console;
 	
+	private Boutique boutique; 
 	
 	
-	public Jeu(String titre, Console console) {
+	public Jeu(String titre, Console console,Boutique boutique) {
 		this.titre = titre;
 		this.console = console;
+		this.boutique=boutique;
 	}
 
 
