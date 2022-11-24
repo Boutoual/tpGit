@@ -1,5 +1,6 @@
 package test;
 
+import model.Client;
 import model.Console;
 import model.Jeu;
 
@@ -17,6 +18,8 @@ public class Test {
 		Jeu j3 = new Jeu("puzzle", c1);
 		Jeu j4 = new Jeu("subway", c1);
 		
+		Client cl1 = new Client("Robert","Dupont");
+		Client cl2 = new Client("Bernadette","Dupont");
 
 }
 }
