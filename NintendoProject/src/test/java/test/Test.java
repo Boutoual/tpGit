@@ -21,8 +21,8 @@ public class Test {
 		Jeu j3 = new Jeu("puzzle", c1);
 		Jeu j4 = new Jeu("subway", c1);
 		
-		
-Adresse a= new Adresse(1,"Hugo", "Paris");		
-Boutique b = new Boutique("Lidl", a);
+		Client cl1 = new Client("Robert","Dupont");
+		Client cl2 = new Client("Bernadette","Dupont");
+
 }
 }
