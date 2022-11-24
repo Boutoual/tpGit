@@ -1,5 +1,7 @@
 package test;
 
+import java.time.LocalDate;
+
 import model.Adresse;
 import model.Boutique;
 import model.Console;
@@ -11,7 +13,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Console("PES");
+		Console c1 = new Console("PES",25, LocalDate.parse("2016-05-01"));
 		
 		Jeu j = new Jeu("zelda", c1);
 		Jeu j1 = new Jeu("SuperMario", c1);
