@@ -1,9 +1,12 @@
 package test;
 
+
 import java.time.LocalDate;
 
 import model.Adresse;
 import model.Boutique;
+import model.Client;
+
 import model.Console;
 import model.Jeu;
 
@@ -23,6 +26,9 @@ public class Test {
 		
 		Client cl1 = new Client("Robert","Dupont");
 		Client cl2 = new Client("Bernadette","Dupont");
+		
+		Adresse a = new Adresse (5,"Hugo", "Paris") ;
+		Boutique b = new Boutique("Lidl", a);
 
 }
 }
