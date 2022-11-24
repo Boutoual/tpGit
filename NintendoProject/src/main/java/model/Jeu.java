@@ -1,5 +1,5 @@
-package model;
 
+package model;
 import model.Console;
 import java.util.List;
 

@@ -17,6 +17,6 @@ public class Test {
 		Jeu j3 = new Jeu("puzzle", c1);
 		Jeu j4 = new Jeu("subway", c1);
 		
-	}
 
+}
 }

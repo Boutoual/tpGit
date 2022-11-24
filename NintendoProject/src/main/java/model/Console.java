@@ -1,11 +1,13 @@
+
 package model;
+
 
 public class Console {
 
 	private String nom;
 
 	public Console(String nom) {
-		super();
+
 		this.nom = nom;
 	}
 
@@ -22,5 +24,4 @@ public class Console {
 		return "Console [nom=" + nom + "]";
 	}
 
-	
 }
