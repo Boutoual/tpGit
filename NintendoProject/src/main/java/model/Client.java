@@ -13,11 +13,10 @@ private List<Achat> achat1 = new ArrayList();
 
 
 
-public Client(String nom, String prenom, List<Achat> achat1) {
+public Client(String nom, String prenom) {
 	super();
 	this.nom = nom;
 	this.prenom = prenom;
-	this.achat1 = achat1;
 }
 
 
